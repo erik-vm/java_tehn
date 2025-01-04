@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.5.0" timestamp="2024-12-15T21:49:35.387">
+<file name="C:\Projects\Java veebirakendused\icd0011\src\main\java\config\security\ApiAuthenticationFilter.java">
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="56" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="config.security" class="ApiAuthenticationFilter" method="ApiAuthenticationFilter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.5.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method called during object construction: AbstractAuthenticationProcessingFilter.setAuthenticationManager(AuthenticationManager) 
+</violation>
+<violation beginline="24" endline="24" begincolumn="9" endcolumn="69" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="config.security" class="ApiAuthenticationFilter" method="ApiAuthenticationFilter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.5.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method called during object construction: AbstractAuthenticationProcessingFilter.setAuthenticationSuccessHandler(AuthenticationSuccessHandler) 
+</violation>
+<violation beginline="25" endline="25" begincolumn="9" endcolumn="69" rule="ConstructorCallsOverridableMethod" ruleset="Error Prone" package="config.security" class="ApiAuthenticationFilter" method="ApiAuthenticationFilter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.5.0/pmd_rules_java_errorprone.html#constructorcallsoverridablemethod" priority="1">
+Overridable method called during object construction: AbstractAuthenticationProcessingFilter.setAuthenticationFailureHandler(AuthenticationFailureHandler) 
+</violation>
+<violation beginline="28" endline="28" begincolumn="27" endcolumn="48" rule="MissingOverride" ruleset="Best Practices" package="config.security" class="ApiAuthenticationFilter" method="attemptAuthentication" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.5.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'attemptAuthentication(HttpServletRequest, HttpServletResponse)' is missing an @Override annotation.
+</violation>
+</file>
+<file name="C:\Projects\Java veebirakendused\icd0011\src\main\java\config\security\OAuthSecurityConfig.java">
+<violation beginline="40" endline="40" begincolumn="43" endcolumn="53" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="config.security" class="OAuthSecurityConfig" method="filterChain" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.5.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'Customizer': 'withDefaults' is already in scope
+</violation>
+</file>
+</pmd>
